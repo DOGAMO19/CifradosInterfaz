@@ -39,7 +39,7 @@ export const CifradoAes = () => {
             <button
               type="submit"
               onClick={() => cifrarAes(sitio)}
-              className=" mb-5 bg-emerald-500 hover:bg-emerald-700 cursor-pointer text-white font-semibold md:w-1/4 w-1/2 p-3 mt-5 uppercase text-lg"  
+              className=" mb-5 bg-cyan-500 hover:bg-cyan-700 cursor-pointer text-white font-semibold md:w-1/4 w-1/2 p-3 mt-5 uppercase text-lg"  
             >
               Cifrar a formato AES
             </button>
@@ -57,7 +57,7 @@ export const CifradoAes = () => {
             <button
               type="submit"
               onClick={() => descifrarAes(sitioDescifrar)}
-              className="  bg-emerald-500 hover:bg-emerald-700 cursor-pointer text-white font-semibold md:w-1/4 w-1/2 p-3 mt-5 uppercase text-lg"  
+              className="  bg-cyan-500 hover:bg-cyan-700 cursor-pointer text-white font-semibold md:w-1/4 w-1/2 p-3 mt-5 uppercase text-lg"  
             >
               Descifrar de formato AES
             </button>
