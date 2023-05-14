@@ -55,7 +55,7 @@ export const CifradoAes = () => {
           </div>
           {/* Form cifrado AES */}
           <InputForm 
-          title="Link a cifrar en formato AES" 
+          title="Link a cifrar en formato AES - Segundo Cifrado" 
           subtitle="Resultado cifrado en formato AES"
           sitio={sitio}
           setSitio={setSitio}
@@ -73,8 +73,8 @@ export const CifradoAes = () => {
           </div>
           {/* Form descifrado de AES  */}
           <InputFormDescifrar
-          title="Link a descifrar en formato AES" 
-          subtitle="Resultado descifrado en formato AES"
+          title="Cifrado Doble a Descifrar" 
+          subtitle="Resultado doble descifrado"
           sitioDescifrar={sitioDescifrar}
           setSitioDescifrar={setSitioDescifrar}
           resultadoDescifrado = {resultadoDescifrado}

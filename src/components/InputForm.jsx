@@ -12,7 +12,7 @@ export const InputForm = ({title,subtitle,sitio,setSitio,resultadoCifrado}) => {
         type="text"
         name="inputLink"
         id='inputLink'
-        placeholder='Link'
+        placeholder='Texto a Cifrar'
         className=" placeholder:italic placeholder:text-gray-700 block bg-white w-3/4 border border-gray-600 rounded-md py-1 pl-3 pr-3 shadow-md focus:outline-none focus:border-sky-500 sm:text-sm" 
         value={sitio}
         onChange={ (event) => setSitio(event.target.value) }
@@ -42,7 +42,7 @@ export const InputFormDescifrar = ({title,subtitle,sitioDescifrar,setSitioDescif
         type="text"
         name="inputLink"
         id='inputLink'
-        placeholder='Link'
+        placeholder='Texto a Descifrar'
         className=" placeholder:italic placeholder:text-gray-700 block bg-white w-3/4 border border-gray-600 rounded-md py-1 pl-3 pr-3 shadow-md focus:outline-none focus:border-sky-500 sm:text-sm" 
         value={sitioDescifrar}
         onChange={ (event) => setSitioDescifrar(event.target.value) }
@@ -73,7 +73,7 @@ export const InputFormDoble = ({title,subtitle,sitioCifrarDos,setSitioCifrarDos,
         type="text"
         name="inputLink"
         id='inputLink'
-        placeholder='Link'
+        placeholder='Texto a Cifrar'
         className=" placeholder:italic placeholder:text-gray-700 block bg-white w-3/4 border border-gray-600 rounded-md py-1 pl-3 pr-3 shadow-md focus:outline-none focus:border-sky-500 sm:text-sm" 
         value={sitioCifrarDos}
         onChange={ (event) => setSitioCifrarDos(event.target.value) }
