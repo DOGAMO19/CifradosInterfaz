@@ -73,7 +73,7 @@ export const CifradoAes = () => {
           </div>
           {/* Form descifrado de AES  */}
           <InputFormDescifrar
-          title="Cifrado Doble a Descifrar" 
+          title="Cifrado Doble a Descifrar (Solo ingresar texto en formato AES)" 
           subtitle="Resultado doble descifrado"
           sitioDescifrar={sitioDescifrar}
           setSitioDescifrar={setSitioDescifrar}
